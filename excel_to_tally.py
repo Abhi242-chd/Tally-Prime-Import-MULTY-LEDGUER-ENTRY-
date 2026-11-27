@@ -164,10 +164,11 @@ def build_xml(df: pd.DataFrame, out_path: Path, company_name: str | None = None)
 
 if __name__ == "__main__":
     # Ask for Excel path
-    src_file = input("Enter path to Excel file (default: vouchers.xlsx): ").strip() or "vouchers.xlsx"
+    src_file = input("Enter path to Excel file (default: tally_voucher_template_10_ledgers.xlsm): ").strip() or "tally_voucher_template_10_ledgers.xlsm"
     src = Path(src_file)
     dst = Path("tally_import.xml")
 
+    
     # Load and clean
     df = pd.read_excel(src)
     df = clean_headers(df)
