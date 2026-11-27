@@ -1,4 +1,4 @@
-<img width="149" height="25" alt="image" src="https://github.com/user-attachments/assets/346b581c-523d-4171-b531-5c9c0fa255cb" />### Step 1: Enter Accounting Data
+Step 1: Enter Accounting Data
 
 Open `tally_voucher_template_10_ledgers.xlsm` and enter your voucher details.
 
